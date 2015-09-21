@@ -31,7 +31,7 @@ texi2dvi singular.doc
 # INFO: -------------------------------------------
 makeinfo --force --no-split singular.doc
 # HTML: -------------------------------------------
-/bin/rm -rf tmp
+command rm -rf tmp
 mkdir tmp
 perl ./texi2html -init_file t2h_singular.init \
   -l2h -short_ext -l2h_tmp tmp -subdir html -prefix simple \

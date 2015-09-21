@@ -64,7 +64,7 @@ read(l,"a2");
 write(l,"a1",t1k);
 read(l,"a2");
 read(l,"a1");
-i=system("sh", "/bin/rm -f db1.dir db1.pag db2.dir db2.pag");
-i=system("sh", "/bin/rm -f test.dir test.pag");
+i=system("sh", "command rm -f db1.dir db1.pag db2.dir db2.pag");
+i=system("sh", "command rm -f test.dir test.pag");
 
 tst_status(1);$

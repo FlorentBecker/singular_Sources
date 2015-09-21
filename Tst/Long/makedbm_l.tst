@@ -13,5 +13,5 @@ read_sing_dbm();
 link l="DBM: NFlist";
 dbm_read(l);
 kill l;
-i=system("sh", "/bin/rm -f NFlist.dir NFlist.pag");
+i=system("sh", "command rm -f NFlist.dir NFlist.pag");
 tst_status(1);$
