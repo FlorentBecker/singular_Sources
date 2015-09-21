@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # generate prCopy.inc
 
 @defines = ("PR_DELETE_SRC",  "Move", "Copy",
